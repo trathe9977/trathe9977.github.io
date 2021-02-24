@@ -1,0 +1,65 @@
+body {
+	background-color:  LightGray;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+#wrapper {
+	width: 80%;
+	margin: auto;
+	background-color: LightBlue;
+	box-shadow: 15px 15px grey;
+}
+div {
+	width: 90%;
+	margin: auto;
+}
+div.itembox {
+	border: 4px ridge MidnightBlue;
+	border-radius: 8px;
+	background-color: LightGreen;
+	box-shadow: 10px 10px DarkGreen;
+	padding: 15px;
+	color: black;
+}
+div.favorite {
+	border: 4px double MidnightBlue;
+	border-radius: 8px;
+	background-color: Orange;
+	box-shadow: 10px 10px DarkGreen;
+	padding: 15px;
+	color: MidnightBlue;
+}
+
+ol {
+ 	list-style-type: upper-roman;
+	background-color: gold;
+}
+ul {
+	list-style-type: circle;
+	background-color: PaleGreen;
+}
+nav {	
+	list-style-type: none;
+	margin: 10px;
+	padding: 25px;
+	overflow: hidden;
+	background-color: SlateGray;
+	border-radius: 8px;
+	display: block;
+
+}
+
+a:hover {
+	color: black;
+	padding: 15px;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: yellow;
+}
