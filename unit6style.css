@@ -1,0 +1,41 @@
+body {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg");
+  background-size: cover;
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.specialborder {
+  border: 20px solid transparent;
+  padding: 10px;
+  background-color: LightBlue;
+  color: Red;
+  height: 300px;
+  border: 20px solid transparent;
+   border-image-source: url("https://www.pngkit.com/png/detail/13-136205_file-dueling-lightsabers-svg-star-wars-lightsaber-png.png");
+  border-image-slice: 224 272 224 272;border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;border-image-repeat: stretch stretch;
+}
+
+ul {
+  list-style-image: url("https://www.advanceduninstaller.com/63126f9f91eb2290fd0db39e8763359e-icon.ico");
+}
+
+a:link {
+  color: White;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: LightBlue;
+  background-color: transparent;
+  text-decoration: none;
+}
+footer {
+  color: Red;
+}
