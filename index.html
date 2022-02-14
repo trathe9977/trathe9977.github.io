@@ -2,22 +2,42 @@
 <html>
 <head>
     <style>
+
         #pyramid {
+            line-height: 0;
+            font-size: 30px;
+        }
+
+        body {
             font-family: "Courier New", monospace;
+            text-align: center;
         }
     </style>
 </head>
-<body>
-    <h1>Mario 2</h1>
-    <h3>
-        Behold this wonderful pyramid:
-    </h3>
+<body >
+    <h1>Mario 3</h1>
 
-    <div id="pyramid">
-        <!-- Our pyramid will go inside here -->
-      
-        
-    </div>
+    <br>
+
+    <p>When you say</p>
+
+    <p><strong>Draw a pyramid</strong></p>
+
+    <p>I say:</p>
+
+    <br>
+
+    <label>How high?</label>
+
+    <input type="text" id="height"/>
+
+    <br><br>
+
+    <button id="drawIt">Draw a pyramid</button>
+
+    <br><br>
+
+    <div id="pyramid"></div>
 
     <script src="mario.js"></script>
 </body>
